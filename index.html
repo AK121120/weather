@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Weather App</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="search">
+            <input type="text" id="cityInput" class="textfeild" placeholder="Enter a city">
+            <button onclick="send()" class="btn" ><i class="fa fa-search"></i></button>
+            <button onclick="locate()" class="btn" ><i class="fa fa-location-arrow"></i></button>
+        </div>
+        <div class="display">
+            <img id="imagei" class="image-icon" src="./icons/clear-sky.png" alt="">
+            <div class="content">
+                <h1 id="name">London</h1>
+                <p><span id="temp-value">25</span><span id="temp-unit">&#176C</span></p>
+                <h3 id="climate">cloudy</h3>
+                
+                    <div id="iconsContainer">    
+                        <div class = "icons">
+                            <p class="weather" id="day1"></p>
+                            <div class="image"><img src="./icons/storm.png" class="imgClass" id="img1"></div>
+                            <p class="minValues" ><span id="day1Min">Min: 0</span><span >&#176C</span></p>
+                            <p class="maxValues" ><span id="day1Max">Max: 0</span><span >&#176C</span></p>
+                        </div>
+                        <div class = "icons">
+                            <p class="weather" id="day2"></p>
+                            <div class="image"><img src="./icons/storm.png" class="imgClass" id="img2"></div>
+                            <p class="minValues" ><span id="day2Min">Min: 0</span><span >&#176C</span></p>
+                            <p class="maxValues" ><span id="day2Max">Max: 0</span><span >&#176C</span></p>
+                        </div>
+                        <div class = "icons">
+                            <p class="weather" id="day3"></p>
+                            <div class="image"><img src="./icons/storm.png" class="imgClass" id="img3"></div>
+                            <p class="minValues" ><span id="day3Min">Min: 0</span><span >&#176C</span></p>
+                            <p class="maxValues" ><span id="day3Max">Max: 0</span><span >&#176C</span></p>
+                        </div>
+                        <div class = "icons">
+                            <p class="weather" id="day4"></p>
+                            <div class="image"><img src="./icons/storm.png" class="imgClass" id="img4"></div>
+                            <p class="minValues" ><span id="day4Min">Min: 0</span><span >&#176C</span></p>
+                            <p class="maxValues" ><span id="day4Max">Max: 0</span><span >&#176C</span></p>
+                        </div>
+                        <div class = "icons">
+                            <p class="weather" id="day5"></p>
+                            <div class="image"><img src="./icons/storm.png" class="imgClass" id="img5"></div>
+                            <p class="minValues"><span id="day5Min">Min: 0</span><span >&#176C</span></p>
+                            <p class="maxValues"><span id="day5Max">Max: 0</span><span >&#176C</span></p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
