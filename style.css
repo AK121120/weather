@@ -3,6 +3,7 @@ body{
     padding: 0;
     overflow: hidden;
     background: #00ced1;
+    box-sizing: border-box;
     background-image: radial-gradient(circle, #ddf3f4, #99dee1, #87f5f5);
 }
 .textfeild{
@@ -172,5 +173,12 @@ body{
         width: 40px;
         padding-left: 20px;
     }
+    
+}
+@media (min-width:768px){
+
+    #iconsContainer{
+        display: none;   
+        }
     
 }
