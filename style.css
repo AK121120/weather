@@ -54,8 +54,11 @@ body{
     padding-left: 50px;
     flex-direction: column;
 }
+.display .content #name{
+    font-size: 40px;
+}
 .display .content #temp-value{
-    font-size: 75px;
+    font-size: 60px;
     color: white;
 }
 .display .content #temp-unit{
@@ -128,8 +131,46 @@ body{
     margin-bottom: 5px;
     margin-left: 5px;
 }
-@media screen and (max-width: 800px) {
-    .left, .main, .right {
-      width: 100%; 
+
+  @media (max-width:991px){
+
+    html{
+        font-size: 55%;
     }
-  }
+    
+    body{
+        padding: 0;
+        overflow: auto;
+    }
+
+    .display{
+        width: 500px;
+    }
+    .image-icon{
+        padding-top: 20%;
+        height: 250px;
+        width: 250px;
+    }
+    
+    #iconsContainer{
+    left: 52%;
+    top: 85%;
+    height: 200px;
+    width: 600px;    
+    }
+    .icons{
+        height: 80px;
+        width: 80px;
+        margin: 10px;
+    }
+    .image{
+        height: 45px;
+        width: 40px;
+    }
+    .imgClass{
+        height: 40px;
+        width: 40px;
+        padding-left: 20px;
+    }
+    
+}
