@@ -132,7 +132,7 @@ body{
     margin-left: 5px;
 }
 
-  @media (max-width:991px){
+  @media (max-width:768px){
 
     html{
         font-size: 55%;
