@@ -179,6 +179,21 @@ body{
 
     #iconsContainer{
         display: none;   
-        }
+    }
+    .icons{
+        display: none; 
+    }
+    .image{
+        display: none; 
+    }
+    .imgClass{
+        display: none; 
+    }
+    .minValues{
+        display: none;
+    }
     
+    .maxValues{
+        display: none;
+    }
 }
