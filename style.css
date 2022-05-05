@@ -176,7 +176,10 @@ body{
     
 }
 @media (min-width:768px){
-
+    body{
+        display: flex;
+        justify-content: center;
+    }
     #iconsContainer{
         display: none;   
     }
